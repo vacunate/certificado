@@ -9,6 +9,12 @@ body {
   background-color: #00828F;
   font-weight: 300;
   padding: 16px 10px;
+  display: flex;
+  align-items: center;
+}
+.menu-icon {
+  margin-right: 12px;
+  font-size: 18px;
 }
 .main-header {
   background: url("../VacunatePBA_files/credencial-v.jpg") no-repeat center center;
@@ -49,14 +55,24 @@ body {
   font-size: 14px;
   font-weight: 500;
 }
+.user-column {
+  display: flex;
+  flex-direction: column;
+}
 .user-data {
   margin-bottom: 24px;
 }
 .user-data.bottom {
+  margin-top: auto;
   margin-bottom: 0;
 }
 .qr {
   border: solid 2px #e81f76;
   border-radius: 6px;
   aspect-ratio: 1/1;
+  padding: 6px;
+}
+.qr img {
+  width: 100%;
+  height: auto;
 }
