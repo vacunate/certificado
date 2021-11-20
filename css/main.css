@@ -1,0 +1,62 @@
+body {
+  font-family: "Encode Sans", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.menu {
+  color: #fff;
+  background-color: #00828F;
+  font-weight: 300;
+  padding: 16px 10px;
+}
+.main-header {
+  background: url("../VacunatePBA_files/credencial-v.jpg") no-repeat center center;
+  background-size: cover;
+  height: 0;
+  margin-bottom: .25rem;
+  padding-top: 45%;
+  width: 100%;
+}
+.main-footer {
+  background: #00b1c7;
+  border-top: none;
+  text-align: center;
+  padding: 12px;
+  margin-top: auto;
+}
+.main-footer img {
+  max-height: 4.5rem;
+  max-width: 75vw;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  padding: 8px 28px 24px;
+}
+.title-container {
+  color: #fff;
+  background-color: #e81f76;
+  padding: 4px 16px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.subtitle {
+  font-size: 14px;
+}
+.data {
+  font-size: 14px;
+  font-weight: 500;
+}
+.user-data {
+  margin-bottom: 24px;
+}
+.user-data.bottom {
+  margin-bottom: 0;
+}
+.qr {
+  border: solid 2px #e81f76;
+  border-radius: 6px;
+  aspect-ratio: 1/1;
+}
